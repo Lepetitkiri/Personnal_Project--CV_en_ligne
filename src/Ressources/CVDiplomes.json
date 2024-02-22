@@ -1,0 +1,44 @@
+[
+    {
+        "date": [
+            "2023",
+            "(1ans)"
+        ],
+        "titre": "Diplôme de developpeur Web",
+        "entreprise": [
+            "OpenClassrooms",
+            "https://static.oc-static.com/syllabus/556-developpeur-web-fr-fr-standard.pdf",
+            "/Pictures/OpenClassroom.png"
+        ],
+        "ville": "A distance",
+        "description": "Developpement web full-stack. Accessibilité, SEO et cyber-sécurité."
+    },
+    {
+        "date": [
+            "2014",
+            "(1ans)"
+        ],
+        "titre": "Licence Pro ER2E - Energies Renouvelables et Efficacité Energétique",
+        "entreprise": [
+            "Université de Lille",
+            "https://licence-pro-er2e.univ-lille.fr/fileadmin/user_upload/licence-pro-er2e/documents/LICENCEPRO_ER2E_D_2022_2023.pdf",
+            "/Pictures/Universite.jpg"
+        ],
+        "ville": "Lille (59)",
+        "description": "Gestion et maîtrise de l'énergie, l'électricité et le développement durable."
+    },
+    {
+        "date": [
+            "2013",
+            "(2ans)"
+        ],
+        "titre": "BTS FEE - Fluides Energie et Environnement",
+        "entreprise": [
+            "Lycée Cesar Baggio",
+            "https://cesarbaggio.fr/plaquette/fiche_bts_energie.pdf",
+            "/Pictures/Baggio.png"
+        ],
+        "ville": "Lille (59)",
+        "description": "Conception et maintenance d'installations thermiques et frigoriques en alternance."
+    }
+]

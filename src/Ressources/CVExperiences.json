@@ -1,0 +1,46 @@
+[
+    {
+        "date": [
+            "Sept 2024",
+            "Aujourd'hui"
+        ],
+        "titre": "Mon premier emploi dans le web",
+        "entreprise": [
+            "Votre entreprise",
+            "",
+            ""
+        ],
+        "ville": "A venir",
+        "description": ""
+    },
+    {
+        "date": [
+            "Janv 2020",
+            "Sept 2021",
+            "(2ans)"
+        ],
+        "titre": "Technicienne exécution et chiffrage - Experte en énergies.",
+        "entreprise": [
+            "Ramery Energies",
+            "https://www.ramery.fr/metiers/energies/",
+            "/Pictures/Ramery.jpg"
+        ],
+        "ville": "Templemars (59)",
+        "description": "Chauffage, ventilation, plomberie, energies renouvelables."
+    },
+    {
+        "date": [
+            "Oct 2014",
+            "Nov 2018",
+            "(4ans)"
+        ],
+        "titre": "Technicienne exécution en bureau d'études. Spécialiste en énergies.",
+        "entreprise": [
+            "Eiffage Energie",
+            "https://www.eiffageenergiesystemes.com/home",
+            "/Pictures/Eiffage.png"
+        ],
+        "ville": "Wambrechies (59)",
+        "description": "Chauffage, ventilation, plomberie, energies renouvelables."
+    }
+]

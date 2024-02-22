@@ -1,0 +1,26 @@
+[
+    {
+        "titre": "Kasa",
+        "date": "2023",
+        "description": "Application web de location immobilière",
+        "detail": "Formation Openclassrooms",
+        "lien": "https://lepetitkiri.github.io/Kasa_P7_Openclassrooms/",
+        "image": "/Pictures/folder.png",
+        "techno": [
+            "REACT"
+        ]
+    },
+    {
+        "titre": "Ohmyfood",
+        "date": "2023",
+        "description": "Site de réservation de restaurant",
+        "detail": "Formation Openclassrooms",
+        "lien": "https://lepetitkiri.github.io/Ohmyfood_P3_Openclassrooms/",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "HTML",
+            "W3C",
+            "SASS"
+        ]
+    }
+]
