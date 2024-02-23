@@ -1,5 +1,32 @@
 [
     {
+        "titre": "Calculateur d'IMC",
+        "date": "2024",
+        "description": "Calculateur d'IMC en ligne",
+        "detail": "Projet loisir",
+        "lien": "https://lepetitkiri.github.io/Personnal_Project--BMI_Calculator-/",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "React",
+            "HTML",
+            "SASS"
+        ]
+    },
+    {
+        "titre": "Bee project",
+        "date": "2024",
+        "description": "Site vitrine pour un apiculteur",
+        "detail": "Projet loisir",
+        "lien": "https://lepetitkiri.github.io/Personnal_Project--Bee_Website/",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "React",
+            "HTML",
+            "SASS",
+            "SEO"
+        ]
+    },
+    {
         "titre": "Kasa",
         "date": "2023",
         "description": "Application web de location immobilière",
@@ -7,7 +34,8 @@
         "lien": "https://lepetitkiri.github.io/Kasa_P7_Openclassrooms/",
         "image": "/Pictures/folder.png",
         "techno": [
-            "REACT"
+            "REACT",
+            "HTML"
         ]
     },
     {
@@ -19,7 +47,6 @@
         "image": "/Pictures/gift.png",
         "techno": [
             "HTML",
-            "W3C",
             "SASS"
         ]
     }
