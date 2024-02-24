@@ -9,16 +9,20 @@ import Projects from './Pages/Projects';
 import Contact from './Pages/Contact';
 
 function App() {
+
+  // Prop basename 
+  const basename = "/Personnal_Project--CV_en_ligne";
+
   return (
-    <BrowserRouter basename="/Personnal_Project--CV_en_ligne">
+    <BrowserRouter basename="/Personnal_Project--CV_en_ligne" >
       <Routes>
-        <Route path="*" element={<Error />} />
-        <Route path="/" element={<Home />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/CV" element={<CV />} />
-        <Route path="/Contact" element={<Contact />} />
+        <Route path="*" element={<Error basename={basename} />} />
+        <Route path="/" element={<Home basename={basename} />} />
+        <Route path="/Projects" element={<Projects basename={basename} />} />
+        <Route path="/CV" element={<CV basename={basename} />} />
+        <Route path="/Contact" element={<Contact basename={basename} />} />
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter >
   );
 }
 

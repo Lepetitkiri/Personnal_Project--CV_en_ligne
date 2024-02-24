@@ -5,13 +5,13 @@ import Header from '../../Components/Header/Index';
 import Section from '../../Components/Section/Index';
 import Footer from '../../Components/Footer/Index';
 
-function Home() {
+function Home({ basename }) {
 
     return (
         <>
-            <Header pageTitle='Home' />
+            <Header basename={basename} pageTitle='Home' />
             <main>
-                <Section pageTitle='Home' />
+                <Section basename={basename} pageTitle='Home' />
             </main>
             <Footer />
         </>

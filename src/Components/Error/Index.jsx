@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
 import ErrorStyle from "./Style.jsx";
+import PropTypes from "prop-types";
 
 // Components
 
-function Error() {
+function Error({ basename }) {
 
   // Initialisation de la valeur du state pour l'alien
   const [CurrentAlienPosition, setCurrentAlienPosition] = useState(0);
@@ -20,7 +21,7 @@ function Error() {
   return (
     <ErrorStyle>
       <>
-        <img src='/Pictures/404-error.png' alt='Soucoupe volante 404' />
+        <img src={`${basename}/Pictures/404-error.png`} alt='Soucoupe volante 404' />
         <h2>Oh non, la page d&apos;erreur !!! </h2>
         <Link to="/"> Retour vers l&apos;accueil </Link>
 
@@ -28,23 +29,27 @@ function Error() {
           <div className="MiniGame__road1" >
             {(CurrentAlienPosition) === 0 ?
               <div></div> :
-              <img className='Alien' src='/Pictures/alien.png' alt='Alien violet' />
+              <img className='Alien' src={`${basename}/Pictures/alien.png`} alt='Alien violet' />
             }
           </div>
           <div className="MiniGame__road2">
             {(CurrentAlienPosition) === 1 ?
               <div></div> :
-              <img className='Alien' src='/Pictures/alien.png' alt='Alien violet' />
+              <img className='Alien' src={`${basename}/Pictures/alien.png`} alt='Alien violet' />
             }
-            <img className='Obstacle Obstacle--1' src='/Pictures/security.png' alt='Barrière de sécurité' />
-            <img className='Obstacle Obstacle--2' src='/Pictures/security.png' alt='Barrière de sécurité' />
-            <img className='Obstacle Obstacle--3' src='/Pictures/security.png' alt='Barrière de sécurité' />
-            <img className='Obstacle Obstacle--4' src='/Pictures/security.png' alt='Barrière de sécurité' />
+            <img className='Obstacle Obstacle--1' src={`${basename}/Pictures/security.png`} alt='Barrière de sécurité' />
+            <img className='Obstacle Obstacle--2' src={`${basename}/Pictures/security.png`} alt='Barrière de sécurité' />
+            <img className='Obstacle Obstacle--3' src={`${basename}/Pictures/security.png`} alt='Barrière de sécurité' />
+            <img className='Obstacle Obstacle--4' src={`${basename}/Pictures/security.png`} alt='Barrière de sécurité' />
           </div>
         </div>
       </>
     </ErrorStyle >
   );
 }
+
+Error.propTypes = {
+  basename: PropTypes.string
+};
 
 export default Error;

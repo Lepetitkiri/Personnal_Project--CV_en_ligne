@@ -5,13 +5,13 @@ import Header from '../../Components/Header/Index';
 import Section from '../../Components/Section/Index';
 import Footer from '../../Components/Footer/Index';
 
-function CV() {
+function CV({ basename }) {
 
     return (
         <>
-            <Header pageTitle='CV' />
+            <Header basename={basename} pageTitle='CV' />
             <main>
-                <Section pageTitle='CV' />
+                <Section basename={basename} pageTitle='CV' />
             </main>
             <Footer />
         </>

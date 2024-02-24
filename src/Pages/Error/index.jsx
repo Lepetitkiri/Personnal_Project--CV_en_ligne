@@ -6,12 +6,12 @@ import Footer from '../../Components/Footer/Index';
 
 // Provider
 
-function ErrorPage() {
+function ErrorPage({ basename }) {
 
     return (
         <>
             <main>
-                <Error />
+                <Error basename={basename} />
             </main>
             <Footer />
         </>

@@ -2,7 +2,7 @@ import React from "react";
 import ProjectCardStyle from "./Style.jsx";
 import PropTypes from "prop-types";
 
-function ProjectCard({ titre, date, description, details, lien, techno }) {
+function ProjectCard({ titre, date, description, details, lien, techno, basename }) {
 
   return (
     <ProjectCardStyle href={lien} className='ProjectPage__galleryCard' >
@@ -18,7 +18,7 @@ function ProjectCard({ titre, date, description, details, lien, techno }) {
 
       <div className='ProjectPage__galleryCardLogo'>
         {techno.map((technologie, index) => (
-          <img key={`technologie-${index}`} src={`/Pictures/${technologie}.png`} alt={`logo ${technologie}`} />
+          <img key={`technologie-${index}`} src={`${basename}/Pictures/${technologie}.png`} alt={`logo ${technologie}`} />
         ))}
       </div>
     </ProjectCardStyle >
@@ -32,7 +32,8 @@ ProjectCard.propTypes = {
   details: PropTypes.string,
   lien: PropTypes.string,
   image: PropTypes.string,
-  techno: PropTypes.array
+  techno: PropTypes.array,
+  basename: PropTypes.string
 };
 
 export default ProjectCard;
