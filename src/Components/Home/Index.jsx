@@ -9,7 +9,7 @@ function Home({ basename }) {
       <div className="HomePage__Card HomePage__Presentation">
         <div className="HomePage__PresentationTexte">
           <div>
-            <img src={`${basename}/Pictures/Hand-checking.png`} alt='Main saluant' />
+            <img src={`${basename}/Pictures/hand-checking.png`} alt='Main saluant' />
           </div>
           <h2> Bienvenue sur mon Porte-folio !</h2>
           <p>Je suis ravie de vous accueillir sur mon tout nouveau site <strong>Porte-folio</strong> ! C&apos;est l&apos;aboutissement d&apos;une année d&apos;apprentissage, d&apos;efforts et de passion pour le <strong>développement web</strong>. Sur ce site, vous découvrirez mon parcours, mes compétences et mes réalisations. Je suis impatiente de partager avec vous mon aventure dans le monde du <strong>développement</strong>, alors installez-vous confortablement et explorez mon univers ! </p>

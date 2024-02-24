@@ -7,8 +7,8 @@
         "lien": "https://lepetitkiri.github.io/Personnal_Project--BMI_Calculator-/",
         "image": "/Pictures/gift.png",
         "techno": [
-            "React",
-            "HTML",
+            "REACT",
+            "html",
             "SASS"
         ]
     },
@@ -20,8 +20,8 @@
         "lien": "https://lepetitkiri.github.io/Personnal_Project--Bee_Website/",
         "image": "/Pictures/gift.png",
         "techno": [
-            "React",
-            "HTML",
+            "REACT",
+            "html",
             "SASS",
             "SEO"
         ]
@@ -35,7 +35,7 @@
         "image": "/Pictures/folder.png",
         "techno": [
             "REACT",
-            "HTML"
+            "html"
         ]
     },
     {
@@ -46,7 +46,7 @@
         "lien": "https://lepetitkiri.github.io/Ohmyfood_P3_Openclassrooms/",
         "image": "/Pictures/gift.png",
         "techno": [
-            "HTML",
+            "html",
             "SASS"
         ]
     }
