@@ -5,7 +5,7 @@ import PropTypes from "prop-types";
 function ProjectCard({ titre, date, description, details, lien, techno, basename }) {
 
   return (
-    <ProjectCardStyle href={lien} className='ProjectPage__galleryCard' >
+    <ProjectCardStyle href={lien} target="_blank" rel="noopener" className='ProjectPage__galleryCard' >
       <div className='ProjectPage__galleryCardTitre'>
         <h3> {titre} </h3>
         <p> {date} </p>

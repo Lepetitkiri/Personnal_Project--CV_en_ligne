@@ -7,7 +7,7 @@ import PropTypes from "prop-types";
 function CVCard({ date, titre, entreprise, ville, description, basename }) {
 
   return (
-    <CVCardStyle href={entreprise[1]}>
+    <CVCardStyle href={entreprise[1]} target="_blank" rel="noopener" >
       <div className="CVCard__datePart">
         <p>{date[0]}</p>
         <p>-</p>
