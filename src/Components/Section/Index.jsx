@@ -1,12 +1,12 @@
 import React from "react";
 import PropTypes from "prop-types";
+import { Navigate } from 'react-router-dom';
 import SectionStyle from "./Style.jsx";
 
 // Components
 import Home from '../Home/Index.jsx';
 import Projects from '../Projects/Index.jsx';
 import CV from '../CV/Index.jsx';
-import Error from '../Error/Index.jsx';
 import Contact from '../Contact/Index.jsx';
 
 function Section({ pageTitle, basename }) {
@@ -35,9 +35,7 @@ function Section({ pageTitle, basename }) {
       );
       break;
     default:
-      content = (
-        <Error basename={basename} />
-      );
+      return <Navigate to="/Error" />
   }
 
   return (
