@@ -1,5 +1,19 @@
 [
     {
+        "titre": "Boiler Error Codes API",
+        "date": "2024",
+        "description": "API RestFull permettant de récupérer les codes erreurs des chaudières.",
+        "detail": "Projet loisir - En cours",
+        "lien": "https://github.com/Lepetitkiri/Personnal_Project--Boiler_Error_Codes",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "API",
+            "JS",
+            "NodeJS",
+            "MONGODB"
+        ]
+    },
+    {
         "titre": "Calculateur d'IMC",
         "date": "2024",
         "description": "Calculateur d'IMC en ligne",
@@ -8,8 +22,9 @@
         "image": "/Pictures/gift.png",
         "techno": [
             "REACT",
-            "html",
-            "SASS"
+            "JS",
+            "SASS",
+            "html"
         ]
     },
     {
@@ -22,9 +37,11 @@
         "techno": [
             "REACT",
             "API",
-            "html",
+            "JS",
+            "NodeJS",
             "SASS",
-            "SEO"
+            "SEO",
+            "html"
         ]
     },
     {
@@ -36,6 +53,8 @@
         "image": "/Pictures/folder.png",
         "techno": [
             "REACT",
+            "JS",
+            "NodeJS",
             "html"
         ]
     },
@@ -47,8 +66,8 @@
         "lien": "https://lepetitkiri.github.io/Ohmyfood_P3_Openclassrooms/",
         "image": "/Pictures/gift.png",
         "techno": [
-            "html",
-            "SASS"
+            "SASS",
+            "html"
         ]
     }
 ]
