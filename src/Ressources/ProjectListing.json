@@ -69,5 +69,16 @@
             "SASS",
             "html"
         ]
+    },
+    {
+        "titre": "La Panthère",
+        "date": "2023",
+        "description": "Agence de design à Lyon",
+        "detail": "Formation Openclassrooms",
+        "lien": "https://lepetitkiri.github.io/Lapanthere_P4_Openclassrooms/",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "SEO"
+        ]
     }
 ]
