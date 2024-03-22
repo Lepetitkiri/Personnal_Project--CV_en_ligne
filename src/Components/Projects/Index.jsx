@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import ProjectsStyle from "./Style.jsx";
-import PropTypes from "prop-types";
 
 import { MyContextForBasenameValue } from '../../index.js';
 
@@ -35,9 +34,5 @@ const Projects = () => {
     </ProjectsStyle >
   );
 }
-
-Projects.propTypes = {
-  basename: PropTypes.string
-};
 
 export default Projects;

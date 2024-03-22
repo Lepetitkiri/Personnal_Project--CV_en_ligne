@@ -71,8 +71,7 @@ const Header = ({ pageTitle }) => {
 }
 
 Header.propTypes = {
-  pageTitle: PropTypes.string,
-  basename: PropTypes.string
+  pageTitle: PropTypes.string
 };
 
 export default Header;

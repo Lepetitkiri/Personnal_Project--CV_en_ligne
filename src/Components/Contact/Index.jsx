@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import ContactStyle from "./Style.jsx";
-import PropTypes from "prop-types";
 
 import { MyContextForBasenameValue } from '../../index.js';
 
@@ -24,9 +23,5 @@ const Contact = () => {
     </ContactStyle>
   );
 }
-
-Contact.propTypes = {
-  basename: PropTypes.string
-};
 
 export default Contact;

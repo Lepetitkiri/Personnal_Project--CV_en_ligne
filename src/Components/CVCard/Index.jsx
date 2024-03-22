@@ -38,8 +38,7 @@ CVCard.propTypes = {
   titre: PropTypes.string,
   entreprise: PropTypes.array,
   ville: PropTypes.string,
-  description: PropTypes.string,
-  basename: PropTypes.string
+  description: PropTypes.string
 };
 
 export default CVCard;

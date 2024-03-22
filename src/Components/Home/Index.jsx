@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import HomeStyle from "./Style.jsx";
-import PropTypes from "prop-types";
 
 import { MyContextForBasenameValue } from '../../index.js';
 
@@ -122,9 +121,5 @@ const Home = () => {
     </HomeStyle >
   );
 }
-
-Home.propTypes = {
-  basename: PropTypes.string
-};
 
 export default Home;

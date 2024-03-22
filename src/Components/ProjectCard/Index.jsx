@@ -36,8 +36,7 @@ ProjectCard.propTypes = {
   details: PropTypes.string,
   lien: PropTypes.string,
   image: PropTypes.string,
-  techno: PropTypes.array,
-  basename: PropTypes.string
+  techno: PropTypes.array
 };
 
 export default ProjectCard;

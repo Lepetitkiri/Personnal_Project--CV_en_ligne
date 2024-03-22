@@ -1,7 +1,6 @@
 import React, { useState, useContext } from "react";
 import { Link } from 'react-router-dom';
 import ErrorStyle from "./Style.jsx";
-import PropTypes from "prop-types";
 
 import { MyContextForBasenameValue } from '../../index.js';
 
@@ -49,9 +48,5 @@ const Error = () => {
     </ErrorStyle >
   );
 }
-
-Error.propTypes = {
-  basename: PropTypes.string
-};
 
 export default Error;

@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import CVStyle from "./Style.jsx";
-import PropTypes from "prop-types";
 
 // Context
 import { MyContextForBasenameValue } from '../../index.js';
@@ -53,9 +52,5 @@ const CV = () => {
     </CVStyle >
   );
 }
-
-CV.propTypes = {
-  basename: PropTypes.string
-};
 
 export default CV;
