@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import HomeStyle from "./Style.jsx";
 import PropTypes from "prop-types";
 
-function Home({ basename }) {
+import { MyContextForBasenameValue } from '../../index.js';
+
+const Home = () => {
+
+  const basename = useContext(MyContextForBasenameValue);
 
   return (
     <HomeStyle>

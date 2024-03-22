@@ -1,6 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import CVStyle from "./Style.jsx";
 import PropTypes from "prop-types";
+
+// Context
+import { MyContextForBasenameValue } from '../../index.js';
 
 // Components
 import CVCard from "../CVCard/Index";
@@ -10,7 +13,9 @@ import CVDiplomes from "../../Ressources/CVDiplomes.json";
 import CVExperiences from "../../Ressources/CVExperiences.json";
 import CVPlus from "../../Ressources/CVPlus.json";
 
-function CV({ basename }) {
+const CV = () => {
+
+  const basename = useContext(MyContextForBasenameValue);
 
   return (
     <CVStyle>

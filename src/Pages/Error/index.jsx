@@ -6,7 +6,7 @@ import Footer from '../../Components/Footer/Index';
 
 // Provider
 
-function ErrorPage({ basename }) {
+const ErrorPage = ({ basename }) => {
 
     return (
         <>

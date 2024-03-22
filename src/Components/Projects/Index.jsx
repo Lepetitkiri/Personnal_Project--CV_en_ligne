@@ -1,13 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import ProjectsStyle from "./Style.jsx";
 import PropTypes from "prop-types";
 
+import { MyContextForBasenameValue } from '../../index.js';
+
 import ProjectListening from '../../Ressources/ProjectListing.json';
 
-// Components
 import ProjectCard from '../ProjectCard/Index.jsx';
 
-function Projects({ basename }) {
+const Projects = () => {
+
+  const basename = useContext(MyContextForBasenameValue);
 
   return (
     <ProjectsStyle >

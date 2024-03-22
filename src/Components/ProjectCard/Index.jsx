@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import ProjectCardStyle from "./Style.jsx";
 import PropTypes from "prop-types";
 
-function ProjectCard({ titre, date, description, details, lien, techno, basename }) {
+import { MyContextForBasenameValue } from '../../index.js';
+
+const ProjectCard = ({ titre, date, description, details, lien, techno }) => {
+
+  const basename = useContext(MyContextForBasenameValue);
 
   return (
     <ProjectCardStyle href={lien} target="_blank" rel="noopener" className='ProjectPage__galleryCard' >

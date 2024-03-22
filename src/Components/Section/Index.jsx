@@ -9,29 +9,29 @@ import Projects from '../Projects/Index.jsx';
 import CV from '../CV/Index.jsx';
 import Contact from '../Contact/Index.jsx';
 
-function Section({ pageTitle, basename }) {
+const Section = ({ pageTitle }) => {
 
   let content;
 
   switch (pageTitle) {
     case 'Home':
       content = (
-        <Home basename={basename} />
+        <Home />
       );
       break;
     case 'Projects':
       content = (
-        <Projects basename={basename} />
+        <Projects />
       );
       break;
     case 'CV':
       content = (
-        <CV basename={basename} />
+        <CV />
       );
       break;
     case 'Contact':
       content = (
-        <Contact basename={basename} />
+        <Contact />
       );
       break;
     default:
@@ -46,8 +46,7 @@ function Section({ pageTitle, basename }) {
 }
 
 Section.propTypes = {
-  pageTitle: PropTypes.string,
-  basename: PropTypes.string
+  pageTitle: PropTypes.string
 };
 
 export default Section;

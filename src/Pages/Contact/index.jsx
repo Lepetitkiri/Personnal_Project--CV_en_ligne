@@ -5,7 +5,7 @@ import Header from '../../Components/Header/Index';
 import Section from '../../Components/Section/Index';
 import Footer from '../../Components/Footer/Index';
 
-function Contact({ basename }) {
+const Contact = ({ basename }) => {
 
     return (
         <>

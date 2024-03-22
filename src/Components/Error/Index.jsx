@@ -1,20 +1,22 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Link } from 'react-router-dom';
 import ErrorStyle from "./Style.jsx";
 import PropTypes from "prop-types";
 
-// Components
+import { MyContextForBasenameValue } from '../../index.js';
 
-function Error({ basename }) {
+const Error = () => {
+
+  const basename = useContext(MyContextForBasenameValue);
 
   // Initialisation de la valeur du state pour l'alien
   const [CurrentAlienPosition, setCurrentAlienPosition] = useState(0);
 
   // Fonctions de MAJ de la valeur du state entre 0 et 1
-  function AlienUp() {
+  const AlienUp = () => {
     setCurrentAlienPosition((prevPosition) => (prevPosition === 0 ? prevPosition + 1 : prevPosition = 0));
   }
-  function AlienDown() {
+  const AlienDown = () => {
     setCurrentAlienPosition((prevPosition) => (prevPosition === 1 ? prevPosition - 1 : prevPosition = 0));
   }
 

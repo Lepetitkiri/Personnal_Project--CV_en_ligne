@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import CVCardStyle from "./Style.jsx";
 import PropTypes from "prop-types";
 
-// Components
+import { MyContextForBasenameValue } from '../../index.js';
 
-function CVCard({ date, titre, entreprise, ville, description, basename }) {
+const CVCard = ({ date, titre, entreprise, ville, description }) => {
+
+  const basename = useContext(MyContextForBasenameValue);
 
   return (
     <CVCardStyle href={entreprise[1] === "" ? "" : entreprise[1]} target={entreprise[1] === "" ? "" : "_blank"} rel="noopener" >

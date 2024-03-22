@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import HeaderStyle from "./Style.jsx";
 
-function Header({ pageTitle, basename }) {
+import { MyContextForBasenameValue } from '../../index.js';
+
+const Header = ({ pageTitle }) => {
+
+  const basename = useContext(MyContextForBasenameValue);
 
   return (
     <HeaderStyle>

@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import ContactStyle from "./Style.jsx";
 import PropTypes from "prop-types";
 
-// Components
+import { MyContextForBasenameValue } from '../../index.js';
 
-function Contact({ basename }) {
+const Contact = () => {
+
+  const basename = useContext(MyContextForBasenameValue);
 
   return (
     <ContactStyle className='ContactPage'>
