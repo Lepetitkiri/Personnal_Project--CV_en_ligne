@@ -4,6 +4,13 @@ import PropTypes from "prop-types";
 
 import { MyContextForBasenameValue } from '../../index.js';
 
+/** Composant fonctionnel représentant une carte de CV.
+* @params {string} date - La date de l'expérience professionnelle.
+* @params {string} titre - Le titre du poste occupé.
+* @params {string} entreprise - Le nom de l'entreprise ou de l'organisation.
+* @params {string} ville - Le nom de la ville où l'expérience professionnelle a eu lieu.
+* @params {string} description - Une description de l'expérience professionnelle.
+*/
 const CVCard = ({ date, titre, entreprise, ville, description }) => {
 
   const basename = useContext(MyContextForBasenameValue);
