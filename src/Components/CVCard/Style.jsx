@@ -1,13 +1,11 @@
-//import colors from '../../Utils/Colors';
+import border from '../../Utils/Border';
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
-//import colors from '../../Utils/Colors';
-//import FontType from '../../Utils/FontType';
 
 const CVCardStyle = styled.a`
 
   display: flex;
-  border-radius: 20px;
+  ${border};
   border: 1px solid grey;
   height: auto;
   background: ${colors.white};
@@ -30,7 +28,7 @@ const CVCardStyle = styled.a`
     justify-content: center;
     text-align: center;
     width: 20%;
-    border-radius: 20px 0 0 20px;
+    ${border};
   }
 
   .CVCard__ExperiencePart :nth-child(n) {

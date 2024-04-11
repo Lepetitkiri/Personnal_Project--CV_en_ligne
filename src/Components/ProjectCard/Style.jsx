@@ -1,4 +1,4 @@
-//import colors from '../../Utils/Colors';
+import border from '../../Utils/Border';
 import styled from 'styled-components';
 import colors from '../../Utils/Colors';
 import FontType from '../../Utils/FontType';
@@ -9,7 +9,7 @@ const ProjectCardStyle = styled.a`
   flex-direction: column;
   min-height: 300px;
   width: 26%;
-  border-radius: 25px;
+  ${border};
   border: 3px solid ${colors.quinary};
   padding: 10px;
   ${FontType.p};

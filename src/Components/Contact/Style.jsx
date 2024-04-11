@@ -1,4 +1,5 @@
 import colors from '../../Utils/Colors';
+import border from '../../Utils/Border';
 import styled from 'styled-components';
 import FontType from '../../Utils/FontType';
 
@@ -27,7 +28,7 @@ const ContactStyle = styled.div`
     align-items: center;
     padding: 20px;
     gap: 20px;
-    border-radius: 20px;
+    ${border};
     background: ${colors.white};
 
     @keyframes slideBottom {

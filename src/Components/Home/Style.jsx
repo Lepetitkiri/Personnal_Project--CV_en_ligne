@@ -1,4 +1,4 @@
-//import colors from '../../Utils/Colors';
+import border from '../../Utils/Border';
 import styled from 'styled-components';
 import FontType from '../../Utils/FontType';
 
@@ -91,7 +91,7 @@ const ContactStyle = styled.div`
       gap: 10px;
       padding: 0;
       li {
-        border-radius: 25px;
+        ${border};
         padding: 2%;
         width: auto;
         text-align: center;
