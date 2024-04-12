@@ -18,7 +18,6 @@ Pour toute préstation, rendez-vous dans la partie contact ou sur [ma page Linke
 * Déploiement
 * Contribution
 * Crédits
-* Licence
 
 
 ## Installation
@@ -72,7 +71,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Déploiement
 
 Mon portefolio est déployé sur Github Pages et est accéssible à l'adresse suivante : 
-(https://lepetitkiri.github.io/Personnal_Project--CV_en_ligne]
+[https://lepetitkiri.github.io/Personnal_Project--CV_en_ligne]
 
 ## Credits
 

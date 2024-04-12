@@ -13,10 +13,28 @@ const ProjectCardStyle = styled.a`
   border: 3px solid ${colors.quinary};
   padding: 10px;
   ${FontType.p};
-  background: ${colors.white};
+  background: transparent;
+  position: relative;
+  overflow: hidden;
+
+  &::after {
+    content: "";
+    width: 500px;
+    height: 1000px;
+    background: linear-gradient(225deg, ${colors.grey} 0%, ${colors.grey} 60%, ${colors.quinary} 70%, ${colors.secondary} 80%, ${colors.primary} 100%);
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    transition: all 0.3s;
+  }
+
+  &:hover::after {
+    transform: translatey(-500px);
+  }
 
   :nth-child(n) {
     padding: 5px;
+    z-index: +1;
   }
 
   .ProjectPage__galleryCardTitre {
