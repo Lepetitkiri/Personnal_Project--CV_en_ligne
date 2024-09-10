@@ -1,5 +1,16 @@
 [
     {
+        "titre": "Animation de réseaux sociaux",
+        "date": "2025",
+        "description": "Gestion du compte linkedin.",
+        "detail": "Profesionnel - En cours",
+        "lien": "https://www.linkedin.com/company/ramery-genie-thermique-travaux-services/posts/?feedView=all",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "SEO"
+        ]
+    },
+    {
         "titre": "Boiler Error Codes API",
         "date": "2024",
         "description": "API RestFull permettant de récupérer les codes erreurs des chaudières.",

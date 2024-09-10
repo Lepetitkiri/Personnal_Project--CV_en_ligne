@@ -11,7 +11,7 @@ const Header = ({ pageTitle }) => {
 
   return (
     <HeaderStyle>
-      <h1> Domitille REGNAULT - Développeuse d'applications web</h1>
+      <h1> Domitille REGNAULT <br></br>-<br></br>Spécialiste en énergie <br></br>et développeuse web</h1>
 
       <nav>
         <Link to='/' >

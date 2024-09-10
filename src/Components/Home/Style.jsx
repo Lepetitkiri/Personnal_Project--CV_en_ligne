@@ -50,22 +50,35 @@ const ContactStyle = styled.div`
     flex-direction: column;
     gap: 20px;
     padding-right: 2%;
+    width: 100%;
+      h2 strong {
+      ${FontType.h2};
+    }
+      h3 {
+      padding-bottom: 50px;
+    }
     & .HomePage-Presentation__Hand {
       width: 15%;
       animation: rotateHand 1500ms linear 3;
       transform-origin: right bottom;
     }
-    & :nth-child(-n+4):not(strong):not(em) {
+    & .HomePage-Presentation__Texte-First-Part :not(strong):not(em) {
       display: flex;
-      align-items: center;
       justify-content: center;
       gap: 1%;
+      hight: auto;
+      margin: 1% 0 1% 0;
     }
-    h2 strong {
-      ${FontType.h2};
+    & .HomePage-Presentation__Texte-Second-Part:not(strong):not(em) {
+      display: flex;
+      flex-direction: column;
+      gap: 1%;
+      hight: auto;
+      margin: 1% 0 1% 0;
     }
-    h3 {
-      padding-bottom: 50px;
+    & .HomePage-Presentation__Bullet {
+      width: 8%;
+      margin-right: 2%;
     }
   }
 
@@ -118,7 +131,7 @@ const ContactStyle = styled.div`
 
   /* Version mobile */
   @media only screen and (max-width: 767px) {
-    & .HomePage-Presentation img {
+    & .HomePage-Presentation img:nth-child(2) {
       display: none;
     }
     & .HomePage-Competences__Tags {
@@ -136,9 +149,6 @@ const ContactStyle = styled.div`
   @media only screen and (max-width: 430px) {
     & .HomePage-Presentation__Texte :nth-child(-n+4):not(strong):not(em) {
       display: block;
-    }
-    & .HomePage-Presentation__Texte :nth-child(3):not(strong):not(em) {
-      display: flex;
     }
   }
 `;
