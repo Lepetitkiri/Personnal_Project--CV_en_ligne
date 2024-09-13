@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Personnal_Project--CV_en_ligne/static/js/main.3bc2a4b8.js",
+    "main.js": "/Personnal_Project--CV_en_ligne/static/js/main.b2d765a2.js",
     "index.html": "/Personnal_Project--CV_en_ligne/index.html",
-    "main.3bc2a4b8.js.map": "/Personnal_Project--CV_en_ligne/static/js/main.3bc2a4b8.js.map"
+    "main.b2d765a2.js.map": "/Personnal_Project--CV_en_ligne/static/js/main.b2d765a2.js.map"
   },
   "entrypoints": [
-    "static/js/main.3bc2a4b8.js"
+    "static/js/main.b2d765a2.js"
   ]
 }
