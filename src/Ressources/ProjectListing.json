@@ -1,5 +1,18 @@
 [
     {
+        "titre": "Créateur de fiche techniques pour Ramery",
+        "date": "2026",
+        "description": "Outil de création de fichier word",
+        "detail": "Profesionnel",
+        "lien": "https://github.com/Lepetitkiri/Generateur-Fiches-techniques",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "JS",
+            "SASS",
+            "html"
+        ]
+    },
+    {
         "titre": "Animation de réseaux sociaux",
         "date": "2025",
         "description": "Gestion du compte linkedin.",
