@@ -14,7 +14,7 @@ import { MyContextForBasenameValue } from '../../index.js';
 */
 const ProjectCard = ({ titre, date, description, details, lien, techno }) => {
 
-  const basename = useContext(MyContextForBasenameValue);
+  const { basename } = useContext(MyContextForBasenameValue);
 
   return (
     <ProjectCardStyle href={lien} target="_blank" rel="noopener" className='ProjectPage__galleryCard' >

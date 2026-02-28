@@ -14,7 +14,7 @@ import CVPlus from "../../Ressources/CVPlus.json";
 
 const CV = () => {
 
-  const basename = useContext(MyContextForBasenameValue);
+  const { basename } = useContext(MyContextForBasenameValue);
 
   return (
     <CVStyle>

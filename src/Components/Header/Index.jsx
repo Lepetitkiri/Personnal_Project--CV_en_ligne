@@ -7,7 +7,7 @@ import { MyContextForBasenameValue } from '../../index.js';
 
 const Header = ({ pageTitle }) => {
 
-  const basename = useContext(MyContextForBasenameValue);
+  const { basename } = useContext(MyContextForBasenameValue);
 
   return (
     <HeaderStyle>

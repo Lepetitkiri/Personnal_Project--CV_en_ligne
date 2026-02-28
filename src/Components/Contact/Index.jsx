@@ -5,7 +5,7 @@ import { MyContextForBasenameValue } from '../../index.js';
 
 const Contact = () => {
 
-  const basename = useContext(MyContextForBasenameValue);
+  const { basename } = useContext(MyContextForBasenameValue);
 
   return (
     <ContactStyle className='ContactPage'>

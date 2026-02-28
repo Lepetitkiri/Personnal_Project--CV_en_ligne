@@ -6,7 +6,7 @@ import { MyContextForBasenameValue } from '../../index.js';
 
 const Error = () => {
 
-  const basename = useContext(MyContextForBasenameValue);
+  const { basename } = useContext(MyContextForBasenameValue);
 
   // Initialisation de la valeur du state pour l'alien
   const [CurrentAlienPosition, setCurrentAlienPosition] = useState(0);

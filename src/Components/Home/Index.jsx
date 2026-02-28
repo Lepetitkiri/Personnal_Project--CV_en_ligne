@@ -5,7 +5,7 @@ import { MyContextForBasenameValue } from '../../index.js';
 
 const Home = () => {
 
-  const basename = useContext(MyContextForBasenameValue);
+  const { basename } = useContext(MyContextForBasenameValue);
 
   return (
     <HomeStyle>
