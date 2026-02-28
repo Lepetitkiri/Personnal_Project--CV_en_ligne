@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import ProjectsStyle from "./Style.jsx";
+import CategorySwitch from '../../Components/CategorySwitch/Index.jsx';
 
 import { MyContextForBasenameValue } from '../../index.js';
 
@@ -17,6 +18,7 @@ const Projects = () => {
         <h2> Mes projets</h2>
         <img src={`${basename}/Pictures/folder.png`} alt="Dossier" />
       </div>
+      <CategorySwitch />
 
       <div className="ProjectPage__gallery">
         {ProjectListening.map(array => (
