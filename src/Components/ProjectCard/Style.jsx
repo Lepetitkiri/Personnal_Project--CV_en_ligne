@@ -53,10 +53,17 @@ const ProjectCardStyle = styled.a`
   }
 
   .ProjectPage__galleryCardDescription {
+  padding-top: 10px;
+  padding-bottom: 20px;
   }
 
   .ProjectPage__galleryCardLogo {
   }
+
+  .ProjectPage__galleryCardDescription p:nth-of-type(2) {
+    font-style: italic;
+    ${FontType.smallItalic};
+}
 
   /* Version tablette */
   @media only screen and (max-width: 992px) {
