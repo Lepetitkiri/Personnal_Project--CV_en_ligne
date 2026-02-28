@@ -8,6 +8,7 @@ const ProjectStyle = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
+  gap : 20px;
 
   h2 {
     ${FontType.h2};

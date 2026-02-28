@@ -1,4 +1,5 @@
 import React from 'react';
+import { SwitchContainer, SwitchButton } from './Style';
 
 /** Composant fonctionnel représentant un interrupteur de catégorie.
  * Permet à l'utilisateur de basculer l'affichage global entre les modes DEV et CVC.
@@ -6,10 +7,11 @@ import React from 'react';
 
 const CategorySwitch = () => {
     return (
-        <div className="CategorySwitch__container">
-            <button type="button" className="CategorySwitch__btn">DEV</button>
-            <button type="button" className="CategorySwitch__btn">CVC</button>
-        </div>
+        <SwitchContainer>
+            {/* On ajoute manuellement la classe "active" sur l'un pour tester le design */}
+            <SwitchButton type="button" className="active">DEV</SwitchButton>
+            <SwitchButton type="button">CVC</SwitchButton>
+        </SwitchContainer>
     );
 };
 
