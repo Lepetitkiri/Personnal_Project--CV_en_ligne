@@ -42,11 +42,11 @@ const ProjectCardStyle = styled.a`
     align-items: center;
     width: auto;
     h3 {
-      width: 60%;
+      width: 80%;
       ${FontType.h3};
     }
     p {
-      width: 20%;
+      width: 15%;
     }
     display: flex;
     justify-content: space-between;
