@@ -1,6 +1,10 @@
 [
     {
-        "titre": "Créateur de fiche techniques pour Ramery",
+        "Type": [
+            "Dev",
+            "CVC"
+        ],
+        "titre": "Générateur de fiche techniques Ramery",
         "date": "2026",
         "description": "Outil de création de fichier word",
         "detail": "Profesionnel",
@@ -13,6 +17,25 @@
         ]
     },
     {
+        "Type": "CVC",
+        "titre": "Grimme à Hardifort",
+        "date": "2025",
+        "description": "Showroom de vente de machines agricoles",
+        "detail": "Etudes d'éxécution - 3000m² - Industrie",
+        "lien": "https://group.grimme.com/fr/press/copy-grimme-mit-neuem-standort-in-hardifort-frankreich",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "plancher",
+            "ventilation",
+            "clim",
+            "plomberie"
+        ]
+    },
+    {
+        "Type": [
+            "Dev",
+            "CVC"
+        ],
         "titre": "Animation de réseaux sociaux",
         "date": "2025",
         "description": "Gestion du compte linkedin.",
@@ -24,6 +47,7 @@
         ]
     },
     {
+        "Type": "Dev",
         "titre": "Boiler Error Codes API",
         "date": "2024",
         "description": "API RestFull permettant de récupérer les codes erreurs des chaudières.",
@@ -38,6 +62,7 @@
         ]
     },
     {
+        "Type": "Dev",
         "titre": "Calculateur d'IMC",
         "date": "2024",
         "description": "Calculateur d'IMC en ligne",
@@ -52,6 +77,7 @@
         ]
     },
     {
+        "Type": "Dev",
         "titre": "Bee project",
         "date": "2024",
         "description": "Site vitrine pour un apiculteur",
@@ -69,6 +95,7 @@
         ]
     },
     {
+        "Type": "Dev",
         "titre": "Kasa",
         "date": "2023",
         "description": "Application web de location immobilière",
@@ -83,6 +110,7 @@
         ]
     },
     {
+        "Type": "Dev",
         "titre": "Ohmyfood",
         "date": "2023",
         "description": "Site de réservation de restaurant",
@@ -95,6 +123,7 @@
         ]
     },
     {
+        "Type": "Dev",
         "titre": "La Panthère",
         "date": "2023",
         "description": "Agence de design à Lyon",
@@ -103,6 +132,50 @@
         "image": "/Pictures/gift.png",
         "techno": [
             "SEO"
+        ]
+    },
+    {
+        "Type": "CVC",
+        "titre": "IEM Christian Dabbadie à Villeneuve-d'Ascq",
+        "date": "2021",
+        "description": "Institut médical",
+        "detail": "Chiffrage - 1000m² - Médical",
+        "lien": "http://iemdabbadie.fr/",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "ventilation",
+            "clim",
+            "chauffage",
+            "plomberie"
+        ]
+    },
+    {
+        "Type": "CVC",
+        "titre": "Eleclink à Peuplingues",
+        "date": "2019",
+        "description": "Station de conversion d'électricité",
+        "detail": "Etudes d'éxécution - 1000m² - Industrie",
+        "lien": "https://presse.getlinkgroup.com/photos/la-station-de-conversion-deleclink-a-peuplingues-fr-9548-f6b8a.html",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "ventilation",
+            "clim",
+            "plomberie"
+        ]
+    },
+    {
+        "Type": "CVC",
+        "titre": "IMMD LEA à Roubaix",
+        "date": "2017",
+        "description": "Nouveau pôle universitaires",
+        "detail": "Etudes d'éxécution en équipe - 7650m² - Ecole",
+        "lien": "https://maes-groupe.com/projets/enseignement/campus-immd/",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "ventilation",
+            "clim",
+            "chauffage",
+            "plomberie"
         ]
     }
 ]
