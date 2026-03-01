@@ -4,7 +4,7 @@ import FooterStyle from "./Style.jsx";
 const Footer = () => {
   return (
     <FooterStyle>
-      <p> Copyright © 2024 Domitille REGNAULT </p>
+      <p> Copyright © 2026 Domitille REGNAULT </p>
     </FooterStyle >
   );
 }
