@@ -10,7 +10,16 @@ import ProjectCard from '../ProjectCard/Index.jsx';
 
 const Projects = () => {
 
-  const { basename } = useContext(MyContextForBasenameValue);
+  const { basename, activeCategory } = useContext(MyContextForBasenameValue);
+
+  // Filtre les projets avant de les afficher
+  const filteredProjects = ProjectListening.filter(project => {
+    // Si le type est un tableau, on regarde s'il contient activeCategory
+    if (Array.isArray(project.Type)) {
+      return project.Type.includes(activeCategory);
+    }
+    return project.Type === activeCategory;
+  });
 
   return (
     <ProjectsStyle >
@@ -21,7 +30,7 @@ const Projects = () => {
       <CategorySwitch />
 
       <div className="ProjectPage__gallery">
-        {ProjectListening.map(array => (
+        {filteredProjects.map(array => (
           <ProjectCard key={`ProjectCard-${array.titre}`}
             basename={basename}
             titre={array.titre}
