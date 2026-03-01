@@ -4,27 +4,44 @@ import FontType from '../../Utils/FontType';
 
 export const SwitchContainer = styled.div`
   display: flex;
+  position: relative;
   justify-content: center;
   align-items: center;
   margin: 30px auto;
   background-color: ${colors.backgroundLight || '#f9f9f9'}; 
-  border: 2px solid ${colors.secondary};
+  border: 2.2px solid ${colors.secondary};
   border-radius: 50px;
   padding: 6px;
-  width: fit-content;
+  width: 300px;
   cursor: pointer;
 `;
 
+export const SlidingPill = styled.div`
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  width: calc(50% - 4px);
+  background-color: ${colors.quaternary};
+  border-radius: 40px;
+  z-index: 1;
+  transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  /* Déplacement de la pillule selon la prop */
+  left: 4px;
+  transform: ${props => props.active === 'Dev' ? 'translateX(100%)' : 'translateX(0%)'};
+`;
+
 export const SwitchButton = styled.button`
-  padding: 12px 35px;
+  flex: 1;
+  z-index: 2;
+  padding: 12px 0;
   border: none;
+  background-color: transparent;
   border-radius: 40px;
   cursor: pointer;
   font-weight: 500;
   font-size: 0.9rem;
-  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
-  background-color: transparent;
-  color: ${colors.tertiary};
+  color: ${props => props.isActive ? '#ffffff' : colors.quaternary};
   letter-spacing: 1.5px;
    ${FontType.p};
 
@@ -35,8 +52,6 @@ export const SwitchButton = styled.button`
   }
 
   &.active {
-    background-color: ${colors.quaternary};
     color: #ffffff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
   }
 `;

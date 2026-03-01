@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { SwitchContainer, SwitchButton } from './Style';
+import { SwitchContainer, SwitchButton, SlidingPill } from './Style';
 import { MyContextForBasenameValue } from '../../index.js';
 
 /** Composant fonctionnel représentant un interrupteur de catégorie.
@@ -12,10 +12,11 @@ const CategorySwitch = () => {
 
     return (
         <SwitchContainer>
+            <SlidingPill active={activeCategory} />
             {/* Bouton CVC : devient actif si activeCategory est égal à 'CVC' */}
             <SwitchButton
                 type="button"
-                className={activeCategory === 'CVC' ? 'active' : ''}
+                isActive={activeCategory === 'CVC'}
                 onClick={() => setActiveCategory('CVC')}
             >
                 CVC
@@ -24,7 +25,7 @@ const CategorySwitch = () => {
             {/* Bouton DEV : devient actif si activeCategory est égal à 'Dev' */}
             <SwitchButton
                 type="button"
-                className={activeCategory === 'Dev' ? 'active' : ''}
+                isActive={activeCategory === 'Dev'}
                 onClick={() => setActiveCategory('Dev')}
             >
                 DEV
