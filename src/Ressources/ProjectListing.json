@@ -1,5 +1,19 @@
 [
     {
+        "Type": "CVC",
+        "titre": "Clinique du Ternois à Saint Pol/Ternoise",
+        "date": "2026",
+        "description": "Espace scanner et IRM",
+        "detail": "Etudes d'éxécution - 300m² - Hopital",
+        "lien": "https://polyclinique-ternois.ahnac.com/",
+        "image": "/Pictures/gift.png",
+        "techno": [
+            "ventilation",
+            "clim",
+            "plomberie"
+        ]
+    },
+    {
         "Type": [
             "Dev",
             "CVC"
@@ -21,7 +35,7 @@
         "titre": "Grimme à Hardifort",
         "date": "2025",
         "description": "Showroom de vente de machines agricoles",
-        "detail": "Etudes d'éxécution - 3000m² - Industrie",
+        "detail": "Etudes d'éxécution - 2000m² - Industrie",
         "lien": "https://group.grimme.com/fr/press/copy-grimme-mit-neuem-standort-in-hardifort-frankreich",
         "image": "/Pictures/gift.png",
         "techno": [
