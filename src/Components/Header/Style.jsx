@@ -25,6 +25,7 @@ const HeaderStyle = styled.header`
     ${FontType.h1};
     line-height: 50px;
     padding: 0px 30px;
+   color: ${colors.grey};
   }
 
   nav {
