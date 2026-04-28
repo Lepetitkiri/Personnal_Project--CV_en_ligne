@@ -19,7 +19,7 @@ const CVStyle = styled.div`
     img {
       height: 200px;
       width: 200px;
-      object-fit: cover;
+      object-fit: contain;
       border-radius: 50%;
     }
   }
